@@ -1,0 +1,13 @@
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# PDF extraction
+extract_pdf.py
+pdf_content.txt
+pdf_content_utf8.txt
+
+# MkDocs
+site/
