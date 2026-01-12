@@ -1,0 +1,68 @@
+site_name: Horizontal Tabs Docs
+site_url: https://Sekuora.github.io/HorizontalTabsDocs/
+
+theme:
+  name: material
+  favicon: assets/logo/TrestleTrotter_Logo.png
+  palette:
+    # Light mode
+    - scheme: slate
+      primary: indigo
+      accent: deep purple
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    # Dark mode
+    - scheme: default
+      primary: indigo
+      accent: deep purple
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.indexes
+    - navigation.sections
+    - navigation.tabs
+    - navigation.top
+    - toc.integrate
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+  icon:
+   
+
+  logo: assets/logo/TrestleTrotter_Logo.png
+
+copyright: >
+  A website created by 
+  <a href="https://sites.google.com/view/trestletrotter/home" target="_blank" rel="noopener">
+  Trestle Trotter
+  <img src="/HorizontalTabsDocs/assets/logo/TrestleTrotter_Logo.png" alt="Trestle Trotter" style="height: 24px; vertical-align: middle; margin-left: 8px;">
+  </a> Copyright &copy; 2026
+
+
+extra:
+  generator: false
+
+extra_css:
+  - stylesheets/extra.css
+
+plugins:
+  - search
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.tabbed:
+      alternate_style: true
+
+nav:
+  - Home: index.md
+  - Installation: installation.md
+  - Documentation: documentation.md
+
