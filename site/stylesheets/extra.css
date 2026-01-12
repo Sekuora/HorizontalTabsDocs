@@ -1,8 +1,0 @@
-:root,
-[data-md-color-primary="indigo"] {
-    --md-primary-fg-color: #7a66ee;
-    --md-primary-fg-color--light: #9485f2;
-    /* Lighter shade for interactions if needed */
-    --md-primary-fg-color--dark: #6353c7;
-    /* Darker shade */
-}
